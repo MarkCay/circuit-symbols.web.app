@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "circuitsymbols",
+    "public": "dist/circuit-symbols",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
